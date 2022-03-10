@@ -1,0 +1,12 @@
+name: HubPlugin
+version: ${project.version}
+main: net.mythigame.hubplugin.HubPlugin
+api-version: 1.17
+authors: [ Stellaros ]
+description: HubPlugin by Stellaros
+website: https://www.mythigame.net
+softdepend: [MGC-API]
+commands:
+  info:
+    usage: /info
+    description: Vous permet d'obtenir les informations de votre compte.
